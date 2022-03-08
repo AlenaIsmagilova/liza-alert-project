@@ -12,14 +12,10 @@
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
 @import url(../blocks/menu/__icon/menu__icon.css);
 
-
-
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/content-block/content-block.css);
 @import url(../blocks/action-panel/action-panel.css);
 
-@import url(../blocks/index/index.css);
-
-
+@import url(../blocks/sidebar/sidebar.css);
