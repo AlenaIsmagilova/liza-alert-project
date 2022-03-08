@@ -9,7 +9,10 @@
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/content-block/content-block.css);
+
 @import url(../blocks/action-panel/action-panel.css);
+@import url(../blocks/action-panel/__button/action-panel__button.css);
+@import url(../blocks/action-panel/__button/_initial/action-panel__button_initial.css);
 
 @import url(../blocks/index/index.css);
 
