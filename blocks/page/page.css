@@ -1,14 +1,14 @@
 .page {
   display: grid;
-  grid-template-columns: 36px minmax(min-content, 875px) minmax(
-      min-content,
-      424px
-    ) 36px;
+  grid-template-columns:
+    36px minmax(min-content, 875px) minmax(min-content, 424px)
+    36px;
   column-gap: 24px;
   grid-template-areas:
     "header header header header"
     ". breadcrumbs breadcrumbs ."
-    ". content sidebar-right .";
+    ". content sidebar-right ."
+    ". action sidebar-right .";
 
   box-sizing: border-box;
   max-width: 1440px;
