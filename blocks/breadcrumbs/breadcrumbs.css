@@ -1,0 +1,5 @@
+.breadcrumbs {
+    grid-area: breadcrumbs;
+
+    background-color: brown;
+}
