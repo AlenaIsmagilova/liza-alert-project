@@ -1,0 +1,31 @@
+.page {
+  display: grid;
+  grid-template-columns: 36px minmax(min-content, 875px) minmax(
+      min-content,
+      424px
+    ) 36px;
+  column-gap: 24px;
+  grid-template-areas:
+    "header header header header"
+    ". breadcrumbs breadcrumbs ."
+    ". content sidebar-right .";
+
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fcfcfc;
+  color: #212329;
+
+  font-family: "Golos", "Arial", sans-serif;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  text-rendering: optimizeLegibility;
+}
