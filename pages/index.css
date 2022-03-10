@@ -14,6 +14,8 @@
 
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 @import url(../blocks/breadcrumbs-container/breadcrumbs-container.css);
+@import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
+@import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/content-block/content-block.css);

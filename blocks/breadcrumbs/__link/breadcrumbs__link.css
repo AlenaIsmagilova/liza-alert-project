@@ -1,0 +1,8 @@
+.breadcrumbs__link{
+    text-decoration: none;
+    color: #212329;
+}
+.breadcrumbs__link:hover{
+    cursor: pointer;
+	opacity: 0.8;
+}

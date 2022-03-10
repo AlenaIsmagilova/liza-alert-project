@@ -7,24 +7,6 @@
     list-style: none;
     font-size: 18px;
     line-height: 24px;
-    
-    
 }
 
-.breadcrumbs li {
-    display: inline;
-}
 
-.breadcrumbs li a {
-    text-decoration: none;
-    color: #212329;
-}
-.breadcrumbs li a:hover {
-    cursor: pointer;
-	opacity: 0.8;
-    
- 
-}
-.breadcrumbs li:last-child {
-    color: #9397A3;
-}
