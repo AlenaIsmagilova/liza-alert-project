@@ -1,5 +1,5 @@
-.sidebar__icon {
-  background-image: url("../../../images/ceckbox-green-checked.svg");
+.sidebar__icon_type_done {
+  background-image: url("../../../../images/ceckbox-green-checked.svg");
   width: 16px;
   height: 20px;
   display: inline-block;
