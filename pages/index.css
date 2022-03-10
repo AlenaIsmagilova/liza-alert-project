@@ -35,9 +35,10 @@
 @import url(../blocks/sidebar/sidebar__button-span/sidebar__button-span.css);
 @import url(../blocks/sidebar/sidebar__list-content/sidebar__list-content.css);
 @import url(../blocks/sidebar/sidebar__item-content/sidebar__item-content.css);
-@import url(../blocks/sidebar/sidebar__icon/sidebar__icon.css);
+
 @import url(../blocks/sidebar/sidebar__icon-lesson/sidebar__icon-lesson.css);
 @import url(../blocks/sidebar/sidebar__icon-video/sidebar__icon-video.css);
 @import url(../blocks/sidebar/sidebar__icon-video/_type_current-page/sidebar__icon-video_type_current-page.css);
 @import url(../blocks/sidebar/sidebar__icon-vebinar/sidebar__icon-vebinar.css);
 @import url(../blocks/sidebar/sidebar__icon-test/sidebar__icon-test.css);
+@import url(../blocks/sidebar/sidebar__icon/_type_done/sidebar__icon_type_done.css);
