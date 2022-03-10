@@ -1,0 +1,13 @@
+.sidebar__button-close-element {
+  background-image: url(../../../images/sidebar_close-option.svg);
+  width: 11px;
+  height: 6px;
+  padding: 0;
+  border: none;
+  background-position: center;
+  cursor: pointer;
+}
+
+.sidebar__button-close-element_opened {
+  transform: rotate(180deg);
+}
