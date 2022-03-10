@@ -1,12 +1,11 @@
 .breadcrumbs {
-    text-decoration: none;
-    color: #212329;
-    font-weight: 500;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    font-size: 18px;
-    line-height: 24px;
+  text-decoration: none;
+  color: #212329;
+  font-weight: 500;
+  padding: 24px 0 32px;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
 }
-
-

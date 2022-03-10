@@ -1,0 +1,12 @@
+.card__video-fullscreen {
+  padding: 0;
+  border: 0;
+  width: 24px;
+  height: 100%;
+  background-image: url(../../../images/fullscreen-icon.svg);
+  background-color: transparent;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
