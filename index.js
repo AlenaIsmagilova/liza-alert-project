@@ -3,6 +3,7 @@ const sidebarCloseButtons = document.querySelectorAll(
   ".sidebar__button-close-element"
 );
 
+// Раскрытие - закрытие меню Содержание
 sidebarCloseButtons.forEach(function (item) {
   item.addEventListener("click", function (evt) {
     const li = evt.target.closest(".sidebar__item");

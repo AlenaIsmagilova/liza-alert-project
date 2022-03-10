@@ -1,7 +1,5 @@
 .breadcrumbs__item{
     display: inline;
-    text-decoration: none;
-    color: #212329;
 }
 .breadcrumbs__item:last-child{
     color: #9397A3;

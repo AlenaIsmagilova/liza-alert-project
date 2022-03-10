@@ -19,6 +19,16 @@
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/content-block/content-block.css);
+@import url(../blocks/card/__heading/card__heading.css);
+@import url(../blocks/card/__video-container/card__video-container.css);
+@import url(../blocks/card/__video-area/card__video-area.css);
+@import url(../blocks/card/__video-controls/card__video-controls.css);
+@import url(../blocks/card/__video-play/card__video-play.css);
+@import url(../blocks/card/__video-seekbar/card__video-seekbar.css);
+@import url(../blocks/card/__video-mute/card__video-mute.css);
+@import url(../blocks/card/__video-volumebar/card__video-volumebar.css);
+@import url(../blocks/card/__video-fullscreen/card__video-fullscreen.css);
+@import url(../blocks/action-panel/action-panel.css);
 
 @import url(../blocks/action-panel/action-panel.css);
 @import url(../blocks/action-panel/__button/action-panel__button.css);
