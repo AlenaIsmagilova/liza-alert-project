@@ -1,0 +1,9 @@
+.action-panel__button_status_initial {
+  border: 1px #e6e7eb solid;
+  background-color: #fff;
+  color: #ff6600;
+}
+
+.action-panel__button_status_initial:hover {
+  border: 1px #ff6600 solid;
+}
