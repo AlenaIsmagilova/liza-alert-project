@@ -1,0 +1,10 @@
+.sidebar__item-content {
+  display: flex;
+  align-items: center;
+  max-height: 24px;
+  margin-bottom: 16px;
+}
+
+.sidebar__item-content:last-of-type {
+  margin-bottom: 33px;
+}

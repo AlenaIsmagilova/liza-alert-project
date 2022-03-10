@@ -1,0 +1,8 @@
+.sidebar__icon-video {
+  background-image: url("../../../images/video.svg");
+  width: 20px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
