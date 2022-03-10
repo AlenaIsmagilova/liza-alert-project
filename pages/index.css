@@ -16,7 +16,10 @@
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/content-block/content-block.css);
+
 @import url(../blocks/action-panel/action-panel.css);
+@import url(../blocks/action-panel/__button/action-panel__button.css);
+@import url(../blocks/action-panel/__button/_initial/action-panel__button_initial.css);
 
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/sidebar/sidebar__title/sidebar__title.css);
