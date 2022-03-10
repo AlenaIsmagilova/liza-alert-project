@@ -6,6 +6,7 @@
   border: none;
   background-position: center;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .sidebar__button-close-element_opened {
