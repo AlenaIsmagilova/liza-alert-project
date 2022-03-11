@@ -32,8 +32,10 @@
 
 @import url(../blocks/action-panel/action-panel.css);
 @import url(../blocks/action-panel/__button/action-panel__button.css);
-@import url(../blocks/action-panel/__button/_status/action-panel__button_status_initial.css);
-@import url(../blocks/action-panel/__button/_status/action-panel__button_status_disabled.css);
+
+@import url(../blocks/button/_status/button_status_initial.css);
+@import url(../blocks/button/_status/button_status_disabled.css);
+@import url(../blocks/button/_status/button_status_normal.css);
 
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/sidebar/sidebar__title/sidebar__title.css);
