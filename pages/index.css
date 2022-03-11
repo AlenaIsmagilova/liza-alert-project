@@ -28,7 +28,10 @@
 @import url(../blocks/card/__video-mute/card__video-mute.css);
 @import url(../blocks/card/__video-volumebar/card__video-volumebar.css);
 @import url(../blocks/card/__video-fullscreen/card__video-fullscreen.css);
-@import url(../blocks/action-panel/action-panel.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__course-completed-title/card__course-completed-title.css);
+@import url(../blocks/card/__course-completed-subtitle/card__course-completed-subtitle.css);
+@import url(../blocks/card/__course-completed-span/card__course-completed-span.css);
 
 @import url(../blocks/action-panel/action-panel.css);
 @import url(../blocks/action-panel/__button/action-panel__button.css);

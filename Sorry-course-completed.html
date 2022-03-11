@@ -8,6 +8,7 @@
     <title>Курсы</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
+
   <body class="page">
     <header class="header">
       <a class="header__link" target="_blank" href="#">Учебная платформа</a>
@@ -54,34 +55,35 @@
             alt="Стрелка вправо"
           />&nbsp;&nbsp;
         </li>
-
         <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="#"
-            >5.&nbsp;Работа&nbsp;«второго&nbsp;номера»&nbsp;совместно&nbsp;со&nbsp;следовым&nbsp;кинологическим&nbsp;расчётом</a
-          >
-          &nbsp;&nbsp;<img
-            src="./images/breadcrumbs-right.svg"
-            alt="Стрелка вправо"
-          />&nbsp;&nbsp;
-        </li>
-
-        <li class="breadcrumbs__item">
-          Тест
+          Курс завершен
           <!--тут крч активная стр должна быть-->
         </li>
       </ul>
     </nav>
-
     <main class="card content-block">
-      <!-- Общий контейнер для карточки с тестом, добавлен класс card для фона и теней-->
-      Карточка с теcтом
+      <h1 class="card__heading">Курс завершен</h1>
+      <h2 class="card__course-completed-title">Сожалеем</h2>
+      <p class="card__course-completed-subtitle">
+        Курс
+        <span class="card__course-completed-span"
+          >«Кинологическое направление»</span
+        >
+        не пройден.
+      </p>
+      <p class="card__text">
+        Мы предьявляем очень строгие требования к участникам
+        поисково-спасательных мероприятий, из-за чего обучение может быть
+        сложным. Вы можете попробовать себя
+        <span class="card__course-completed-span">в других направлениях.</span>
+      </p>
     </main>
     <div class="action-panel">
       <a href="#" class="action-panel__button button_status_initial"
         >&larr; &nbsp; Назад</a
       >
       <a href="#" class="action-panel__button button_status_normal"
-        >Далее &nbsp; &rarr;</a
+        >Завершить &nbsp; &rarr;</a
       >
     </div>
     <aside class="card sidebar">
@@ -204,17 +206,11 @@
               <p class="sidebar__item-text">Урок</p>
             </li>
             <li class="sidebar__item-content">
-              <span
-                class="sidebar__icon-video sidebar__icon-video_type_current-page"
-              ></span>
-              <p
-                class="sidebar__item-text sidebar__item-text_type_current-page"
-              >
-                Видео
-              </p>
+              <span class="sidebar__icon-video sidebar__icon_type_done"></span>
+              <p class="sidebar__item-text">Видео</p>
             </li>
             <li class="sidebar__item-content">
-              <span class="sidebar__icon-test"></span>
+              <span class="sidebar__icon-test sidebar__icon_type_done"></span>
               <p class="sidebar__item-text">Тест</p>
             </li>
           </ul>
