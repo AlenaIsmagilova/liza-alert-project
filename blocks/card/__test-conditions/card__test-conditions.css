@@ -1,0 +1,15 @@
+.card__test-conditions {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #212329;
+
+  justify-self: flex-end;
+}
+
+.card__test-conditions:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
