@@ -1,6 +1,7 @@
 .button_status_disabled {
   background-color: #e6e7eb;
   color: #9397a3;
+  border: 1px solid #e6e7eb;
 }
 
 .button_status_disabled:hover {

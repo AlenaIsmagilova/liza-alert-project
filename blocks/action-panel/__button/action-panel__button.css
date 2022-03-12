@@ -1,6 +1,6 @@
 .action-panel__button {
   max-width: 184px;
-  padding: 12px 0;
+  padding: 11px 0;
   border-radius: 16px;
   width: 100%;
   font-style: normal;
@@ -13,4 +13,5 @@
 
 .action-panel__button:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
