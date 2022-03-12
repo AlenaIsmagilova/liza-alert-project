@@ -32,6 +32,17 @@
 @import url(../blocks/card/__course-completed-title/card__course-completed-title.css);
 @import url(../blocks/card/__course-completed-subtitle/card__course-completed-subtitle.css);
 @import url(../blocks/card/__course-completed-span/card__course-completed-span.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__column/card__column.css);
+@import url(../blocks/card/__column-icon-checked/card__column-icon-checked.css);
+@import url(../blocks/card/__column-icon-attempt/card__column-icon-attempt.css);
+@import url(../blocks/card/__column-icon-deadline/card__column-icon-deadline.css);
+@import url(../blocks/card/__column-info/card__column-info.css);
+@import url(../blocks/card/__column-result/card__column-result.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__heading-span/card__heading-span.css);
+@import url(../blocks/card/__heading-link/card__heading-link.css);
 
 @import url(../blocks/action-panel/action-panel.css);
 @import url(../blocks/action-panel/__button/action-panel__button.css);
@@ -58,3 +69,4 @@
 @import url(../blocks/sidebar/sidebar__icon-vebinar/sidebar__icon-vebinar.css);
 @import url(../blocks/sidebar/sidebar__icon-test/sidebar__icon-test.css);
 @import url(../blocks/sidebar/sidebar__icon/_type_done/sidebar__icon_type_done.css);
+@import url(../blocks/sidebar/sidebar__icon-test/_type_current-page/sidebar__icon-test_type_current-page.css);

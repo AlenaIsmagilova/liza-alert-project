@@ -1,0 +1,10 @@
+.card__column-icon-attempt {
+  background-image: url(../../../images/content-block-numberof-attemps.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  margin-right: 10px;
+}

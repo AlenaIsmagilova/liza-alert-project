@@ -1,0 +1,10 @@
+.card__column-icon-checked {
+  background-image: url(../../../images/content-block-check.svg);
+  width: 14px;
+  height: 10px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  margin-right: 13px;
+}
