@@ -1,0 +1,8 @@
+.card__test-form-list {
+  display: flex;
+  padding-top: 16px;
+}
+
+.card__test-form-list:last-of-type {
+  padding-bottom: 32px;
+}
