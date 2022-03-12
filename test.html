@@ -23,7 +23,7 @@
             </a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__link" href="./account.html">
+            <a class="menu__link" id="account-link" href="./account.html">
               <img
                 class="menu__icon"
                 src="./images/logo_profile.svg"
@@ -75,8 +75,15 @@
     <main class="card content-block">
       <!-- Общий контейнер для карточки с тестом, добавлен класс card для фона и теней-->
       <form class="card__test-form" name="test">
-        <h2 class="card__heading">Тест</h2>
-        <a href="#" class="card__test-conditions">Посмотреть условия</a>
+        <div class="card__heading-span">
+          <h1 class="card__heading">Тест</h1>
+          <a
+            href="./about-test.html"
+            id="view-conditions"
+            class="card__heading-link"
+            >Посмотреть условия</a
+          >
+        </div>
         <!-- Форма с чекбоксами-->
         <fieldset class="card__test-form-block">
           <h2 class="card__subheading">
@@ -174,12 +181,15 @@
       </form>
     </main>
     <div class="action-panel">
-      <button class="action-panel__button button_status_initial" id="prev-button"
-        >&larr; &nbsp; Назад</button
+      <button
+        class="action-panel__button button_status_initial"
+        onclick="window.location.href='test-preview.html'"
       >
-      <button class="action-panel__button button_status_disabled" id="next-button"
-        >Далее &nbsp; &rarr;</button
-      >
+        &larr; &nbsp; Назад
+      </button>
+      <button class="action-panel__button button_status_disabled">
+        Далее &nbsp; &rarr;
+      </button>
     </div>
     <aside class="card sidebar">
       <div class="sidebar__head">

@@ -24,7 +24,7 @@
             </a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__link" href="./account.html">
+            <a class="menu__link" id="account-link" href="./account.html">
               <img
                 class="menu__icon"
                 src="./images/logo_profile.svg"
@@ -76,7 +76,7 @@
     <main class="card content-block">
       <div class="card__heading-span">
         <h1 class="card__heading">Тест</h1>
-        <a href="#" class="card__heading-link">Вернуться к тесту</a>
+        <a href="test.html" id="back-to-test" class="card__heading-link">Вернуться к тесту</a>
       </div>
       <p class="card__description">
         Что мы узнали об особенностях привлечения следовых расчётов
@@ -105,7 +105,7 @@
       </div>
     </main>
     <div class="action-panel">
-      <button class="action-panel__button button_status_initial"
+      <button class="action-panel__button button_status_initial" onclick="window.location.href='test.html'"
         >&larr; &nbsp; Назад</button
       >
       <button class="action-panel__button button_status_disabled"
