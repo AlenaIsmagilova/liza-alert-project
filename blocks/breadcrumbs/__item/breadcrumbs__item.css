@@ -1,6 +1,10 @@
 .breadcrumbs__item{
     display: inline;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
 }
 .breadcrumbs__item:last-child{
     color: #9397A3;
+    font-weight: 400;
 }

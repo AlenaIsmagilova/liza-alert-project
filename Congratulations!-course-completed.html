@@ -1,4 +1,4 @@
-button<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,6 @@ button<!DOCTYPE html>
     <title>Курс завершен</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-
   <body class="page">
     <header class="header">
       <a class="header__link" target="_blank" href="#">Учебная платформа</a>
@@ -24,7 +23,7 @@ button<!DOCTYPE html>
             </a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__link"  id="account-link" href="./account.html">
+            <a class="menu__link" id="account-link" href="./account.html">
               <img
                 class="menu__icon"
                 src="./images/logo_profile.svg"
@@ -40,22 +39,20 @@ button<!DOCTYPE html>
         <!---Вставить ссылки на готовые html стр-->
         <li class="breadcrumbs__item">
           <a class="breadcrumbs__link" href="#">Курсы</a>
-          &nbsp;&nbsp;<img
+          &nbsp;<img
             src="./images/breadcrumbs-right.svg"
             alt="Стрелка вправо"
           />&nbsp;&nbsp;
         </li>
-
         <li class="breadcrumbs__item">
           <a class="breadcrumbs__link" href="#"
-            >Кинологическое&nbsp;&nbsp;направление</a
+            >Кинологическое&nbsp;направление</a
           >
-          &nbsp;&nbsp;<img
+          &nbsp;<img
             src="./images/breadcrumbs-right.svg"
             alt="Стрелка вправо"
           />&nbsp;&nbsp;
         </li>
-
         <li class="breadcrumbs__item">
           Курс завершен
           <!--тут крч активная стр должна быть-->
@@ -74,12 +71,15 @@ button<!DOCTYPE html>
       </p>
     </main>
     <div class="action-panel">
-      <button class="action-panel__button button_status_initial"
-        >&larr; &nbsp; Назад</button
+      <button class="action-panel__button button_status_initial">
+        &larr; &nbsp; Назад
+      </button>
+      <button
+        class="action-panel__button button_status_normal"
+        onclick="window.location.href='index.html'"
       >
-      <button class="action-panel__button button_status_normal" onclick="window.location.href='index.html'"
-        >Завершить</button
-      >
+        Завершить
+      </button>
     </div>
     <aside class="card sidebar">
       <div class="sidebar__head">
