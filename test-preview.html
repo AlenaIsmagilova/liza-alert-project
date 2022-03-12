@@ -24,7 +24,7 @@
             </a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__link" href="./account.html">
+            <a class="menu__link" id="account-link" href="./account.html">
               <img
                 class="menu__icon"
                 src="./images/logo_profile.svg"
@@ -100,16 +100,16 @@
         </div>
         <p class="card__column-result">22.02.2022 г. 16:20 (GMT+3)</p>
       </div>
-      <a href="#" class="card__button button_status_normal"
-        >Начать тест &nbsp;</a
+      <button class="card__button button_status_normal" onclick="window.location.href='test.html'"
+        >Начать тест &nbsp;</button
       >
     </main>
     <div class="action-panel">
-      <a href="#" class="action-panel__button button_status_initial"
-        >&larr; &nbsp; Назад</a
+      <button class="action-panel__button button_status_initial" onclick="window.location.href='video.html'"
+        >&larr; &nbsp; Назад</button
       >
-      <a href="#" class="action-panel__button button_status_disabled"
-        >Далее &nbsp; &rarr;</a
+      <button class="action-panel__button button_status_disabled"
+        >Далее &nbsp; &rarr;</button
       >
     </div>
     <aside class="card sidebar">

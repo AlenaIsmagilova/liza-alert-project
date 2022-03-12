@@ -12,3 +12,4 @@ sidebarCloseButtons.forEach(function (item) {
     evt.target.classList.toggle("sidebar__button-close-element_opened");
   });
 });
+
