@@ -8,7 +8,6 @@
     <title>Курсы</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-
   <body class="page">
     <header class="header">
       <a class="header__link" target="_blank" href="#">Учебная платформа</a>
@@ -40,7 +39,7 @@
         <!---Вставить ссылки на готовые html стр-->
         <li class="breadcrumbs__item">
           <a class="breadcrumbs__link" href="#">Курсы</a>
-          &nbsp;&nbsp;<img
+          &nbsp;<img
             src="./images/breadcrumbs-right.svg"
             alt="Стрелка вправо"
           />&nbsp;&nbsp;
@@ -48,9 +47,9 @@
 
         <li class="breadcrumbs__item">
           <a class="breadcrumbs__link" href="#"
-            >Кинологическое&nbsp;&nbsp;направление</a
+            >Кинологическое&nbsp;направление</a
           >
-          &nbsp;&nbsp;<img
+          &nbsp;<img
             src="./images/breadcrumbs-right.svg"
             alt="Стрелка вправо"
           />&nbsp;&nbsp;
@@ -79,12 +78,15 @@
       </p>
     </main>
     <div class="action-panel">
-      <button class="action-panel__button button_status_initial"
-        >&larr; &nbsp; Назад</button
+      <button class="action-panel__button button_status_initial">
+        &larr; &nbsp; Назад
+      </button>
+      <button
+        class="action-panel__button button_status_normal"
+        onclick="window.location.href='index.html'"
       >
-      <button class="action-panel__button button_status_normal" onclick="window.location.href='index.html'"
-        >Завершить</button
-      >
+        Завершить
+      </button>
     </div>
     <aside class="card sidebar">
       <div class="sidebar__head">
