@@ -7,5 +7,5 @@
   display: flex;
   list-style: none;
   font-size: 18px;
-  line-height: 24px;
+  line-height: calc (24 / 18);
 }

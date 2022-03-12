@@ -20,7 +20,9 @@
 .card__video-seekbar::-moz-range-thumb {
   cursor: pointer;
   background: #ffffff;
-  height: 20;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
   border: 0;
 }
 
