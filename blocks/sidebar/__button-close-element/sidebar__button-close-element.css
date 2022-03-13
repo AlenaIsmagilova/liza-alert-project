@@ -2,11 +2,12 @@
   background-image: url(../../../images/sidebar_close-option.svg);
   width: 11px;
   height: 6px;
-  padding: 0;
+  padding: 14px 0 0 44px;
   border: none;
   background-position: center;
   cursor: pointer;
   background-color: transparent;
+  background-repeat: no-repeat;
 }
 
 .sidebar__button-close-element_opened {
