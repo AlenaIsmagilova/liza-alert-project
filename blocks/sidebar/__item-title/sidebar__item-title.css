@@ -1,12 +1,8 @@
-.sidebar__item-text {
+.sidebar__item-title {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   color: #212329;
-  margin: 0;
+  margin: 32px 0 33px;
   display: flex;
-}
-
-.opened {
-  height: 345px;
 }
