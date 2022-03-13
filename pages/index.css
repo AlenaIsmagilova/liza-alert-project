@@ -53,7 +53,8 @@
 @import url(../blocks/card/__test-ratio/card__test-ratio.css);
 @import url(../blocks/card/__test-result-text/card__test-result-text.css);
 @import url(../blocks/card/__button-submit/card__button-submit.css);
-@import url(../blocks/card/__button-submit/_test-result/card__button-submit_test-result.css);
+@import url(../blocks/card/__button-submit/_type/card__button-submit_type_result-done.css);
+@import url(../blocks/card/__button-submit/_type/card__button-submit_type_result-failed.css);
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__info/card__info.css);
 @import url(../blocks/card/__column/card__column.css);

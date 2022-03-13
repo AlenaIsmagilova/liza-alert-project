@@ -1,7 +1,7 @@
-.card__button-submit_test-result {
+.card__button-submit_type_result-failed {
   width: 176px;
   margin-top: 32px;
-  background-image: url(../../../../images/logo-test-button-retake-orange.svg);
+  background-image: url(../../../../images/logo-test-button-retake.svg);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: 16% 45%;
