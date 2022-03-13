@@ -14,19 +14,17 @@
   content: "";
   display: inline-block;
   width: 20px;
-  height: 20px;
+  height: 100%;
   flex-shrink: 0;
   flex-grow: 0;
-  background-image: url(../../../images/checkbox-no-checked.svg);
   margin-right: 10px;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-position: top;
+  background-size: contain;
 }
 
 .card__test-form-item:checked + label::before {
   background-size: auto;
-  background-image: url(../../../images/checkbox_checked.svg);
 }
 
 .card__test-form-item:checked + label {

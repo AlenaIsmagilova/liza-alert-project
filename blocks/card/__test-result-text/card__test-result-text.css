@@ -1,0 +1,10 @@
+.card__test-result-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  font-weight: normal;
+}
+
+.card__test-result-text:nth-of-type(1) {
+  margin-bottom: 18px;
+}
