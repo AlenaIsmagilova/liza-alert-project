@@ -14,8 +14,8 @@ sidebarCloseButtons.forEach(function (item) {
 });
 
 // const resultButton = document.querySelector(".card__button-submit");
-// // let checkedCheckboxInput = false;
-// // let checkedRadioInput = false;
+// let checkedCheckboxInput = false;
+//  let checkedRadioInput = false;
 
 // let checkedCheckboxesArr = [false, false, false];
 // let checkedRadiosArr = [false, false, false];
