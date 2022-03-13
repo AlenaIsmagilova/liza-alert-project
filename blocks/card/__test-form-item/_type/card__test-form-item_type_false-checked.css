@@ -1,0 +1,4 @@
+.card__test-form-item_type_false-checked + label::before {
+  margin-left: 2px;
+  background-image: url(../../../../images/logo-test-false-checked.svg);
+}
