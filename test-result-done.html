@@ -116,15 +116,14 @@
         <p class="card__test-result-text">Если считаете, что сможете лучше, нажмите &laquo;Пересдать&raquo;. В&nbsp;случае</p>
         <p class="card__test-result-text">если результат будет хуже, засчитается наивысший результат.</p>
       </div>
-      <input type="submit" value="Пересдать" name="retake" class="card__button-submit card__button-submit_type_result-done button_status_initial"
-        disabled />
+      <button type="button" class="card__button-submit card__button-submit_type_result-done button_status_initial" onclick="window.location.href='test.html'">Пересдать</button>
     </form>
   </main>
   <div class="action-panel">
-    <button class="action-panel__button button_status_initial" onclick="window.location.href='test-preview.html'">
+    <button class="action-panel__button button_status_initial" onclick="window.location.href='video.html'">
       &larr; &nbsp; Назад
     </button>
-    <button class="action-panel__button button_status_normal">
+    <button class="action-panel__button button_status_normal" onclick="window.location.href='Congratulations!-course-completed.html'">
       Далее &nbsp; &rarr;
     </button>
   </div>
