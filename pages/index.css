@@ -80,6 +80,7 @@
 @import url(../blocks/sidebar/__item/sidebar__item.css);
 @import url(../blocks/sidebar/__item-text/sidebar__item-text.css);
 @import url(../blocks/sidebar/__item-text/_type_current-page/sidebar__item-text_type_current-page.css);
+@import url(../blocks/sidebar/__item-title/sidebar__item-title.css);
 @import url(../blocks/sidebar/__head/sidebar__head.css);
 @import url(../blocks/sidebar/__button-close-element/sidebar__button-close-element.css);
 @import url(../blocks/sidebar/__button-span/sidebar__button-span.css);

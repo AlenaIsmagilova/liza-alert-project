@@ -1,9 +1,9 @@
 .sidebar__icon-lesson {
   background-image: url("../../../images/lesson.svg");
-  width: 16px;
+  min-width: 20px;
   height: 20px;
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 10px;
   background-size: contain;
   background-repeat: no-repeat;
 }
