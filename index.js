@@ -26,6 +26,7 @@ function successTest() {
     resultButton.classList.add("button_status_disabled");
     resultButton.classList.remove("button_status_initial");
   }
+  return successTest;
 }
 
 document
@@ -39,7 +40,7 @@ document
 const checkboxInput = document.querySelector("input[type = checkbox]");
 checkboxInput.addEventListener("change", function (evt) {
   checkedCheckboxInput = evt.target.checked;
-  successTest();
+ successTest();
 });
 
 const radioInput = document.querySelector("input[type = radio]");
@@ -47,3 +48,4 @@ radioInput.addEventListener("change", function (evt) {
   checkedRadioInput = evt.target.checked;
   successTest();
 });
+
