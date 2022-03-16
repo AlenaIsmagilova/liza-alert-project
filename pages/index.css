@@ -57,9 +57,10 @@
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__info/card__info.css);
 @import url(../blocks/card/__column/card__column.css);
-@import url(../blocks/card/__column-icon-checked/card__column-icon-checked.css);
-@import url(../blocks/card/__column-icon-attempt/card__column-icon-attempt.css);
-@import url(../blocks/card/__column-icon-deadline/card__column-icon-deadline.css);
+@import url(../blocks/card/__column-icon/card__column-icon.css);
+@import url(../blocks/card/__column-icon/_type/card__column-icon_type_checked.css);
+@import url(../blocks/card/__column-icon/_type/card__column-icon_type_attempt.css);
+@import url(../blocks/card/__column-icon/_type/card__column-icon_type_deadline.css);
 @import url(../blocks/card/__column-info/card__column-info.css);
 @import url(../blocks/card/__column-result/card__column-result.css);
 @import url(../blocks/card/__button/card__button.css);
