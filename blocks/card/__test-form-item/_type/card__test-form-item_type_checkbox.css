@@ -1,0 +1,7 @@
+.card__test-form-item_type_checkbox + label::before {
+  background-image: url(../../../../images/checkbox-no-checked.svg);
+}
+
+.card__test-form-item_type_checkbox:checked + label::before {
+  background-image: url(../../../../images/checkbox_checked.svg);
+}

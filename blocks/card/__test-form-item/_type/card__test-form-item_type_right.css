@@ -1,0 +1,6 @@
+.card__test-form-item_type_right + label::before {
+  width: 16px;
+  height: 14px;
+  margin-left: 4px;
+  background-image: url(../../../../images/content-block-check.svg);
+}

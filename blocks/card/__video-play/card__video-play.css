@@ -1,0 +1,13 @@
+.card__video-play {
+  margin-right: 32px;
+  padding: 0;
+  border: 0;
+  width: 24px;
+  height: 100%;
+  background-image: url(../../../images/play-icon.svg);
+  background-color: transparent;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 17px 18px;
+}

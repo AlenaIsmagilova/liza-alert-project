@@ -1,0 +1,7 @@
+.content-block {
+  grid-area: content;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+

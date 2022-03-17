@@ -1,0 +1,7 @@
+.card__column-icon_type_deadline {
+  background-image: url(../../../../images/content-block-deadline.svg);
+  width: 16px;
+  height: 22px;
+
+  margin-right: 12px;
+}

@@ -1,0 +1,9 @@
+.action-panel {
+  grid-area: action;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 24px 31px 0;
+}

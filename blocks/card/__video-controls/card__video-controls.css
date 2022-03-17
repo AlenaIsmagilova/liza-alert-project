@@ -1,0 +1,10 @@
+.card__video-controls {
+  margin: 32px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+}

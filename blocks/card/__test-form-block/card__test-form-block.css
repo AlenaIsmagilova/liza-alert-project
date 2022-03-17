@@ -1,0 +1,15 @@
+.card__test-form-block {
+  margin: 0;
+  padding: 0;
+  padding-top: 32px;
+  border: none;
+  border-bottom: 1px solid #e6e7eb;
+}
+
+.card__test-form-block:first-of-type {
+  padding-top: 0;
+}
+
+.card__test-form-block:last-of-type {
+  border-bottom: 0;
+}

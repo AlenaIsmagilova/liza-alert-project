@@ -1,0 +1,11 @@
+  .card__test-form-item_type_circle + label::before {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-image: url(../../../../images/checkbox-circle-no-checked.svg);
+}
+
+.card__test-form-item_type_circle:checked + label::before {
+  background-size: auto;
+  background-image: url(../../../../images/checkbox-circle-checked.svg);
+}

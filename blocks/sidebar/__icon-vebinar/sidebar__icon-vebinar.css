@@ -1,0 +1,8 @@
+.sidebar__icon-vebinar {
+  background-image: url("../../../images/vebinar.svg");
+  width: 20px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
