@@ -120,7 +120,7 @@ function successTest(checkbox, radio) {
 //   });
 // });
 
-function whatchInputStatuses(inputsCollection, cssSelector) {
+function watchInputStatuses(inputsCollection, cssSelector) {
   inputsCollection.forEach((el) => {
     el.addEventListener("change", function () {
       const checkedInputs = document.querySelectorAll(cssSelector);
@@ -134,5 +134,5 @@ function whatchInputStatuses(inputsCollection, cssSelector) {
   });
 }
 
-whatchInputStatuses(radios, ".card__test-form-item_type_circle:checked");
-whatchInputStatuses(checkboxs, ".card__test-form-item_type_checkbox:checked");
+watchInputStatuses(radios, ".card__test-form-item_type_circle:checked");
+watchInputStatuses(checkboxs, ".card__test-form-item_type_checkbox:checked");
