@@ -54,31 +54,34 @@ radioInput.addEventListener("change", function (evt) {
 
 //------------------------- Область видимости кнопки "Показать резкльтат"-------------------------------------
 
-const resultButton = document.querySelector(".card__button-submit");   // Ищем в DOM дереве кнопку
+const resultButton = document.querySelector(".card__button-submit"); // Ищем в DOM дереве кнопку
 const checkboxs = document.querySelectorAll(
   ".card__test-form-item_type_checkbox"
-);                                                                     // Ищем в DOM дереве чекбоксы
-const radios = document.querySelectorAll(".card__test-form-item_type_circle");      //Ищем в DOM дереве радио переключатели
-let checkboxStatus;   // Переменные для хранения значений true/false для чекбоксов
-let radioStatus;      // Переменные для хранения значений true/false для радио
+); // Ищем в DOM дереве чекбоксы
+const radios = document.querySelectorAll(".card__test-form-item_type_circle"); //Ищем в DOM дереве радио переключатели
+let checkboxStatus; // Переменные для хранения значений true/false для чекбоксов
+let radioStatus; // Переменные для хранения значений true/false для радио
 
-
-function changeButton(element) {                              //  Функция замены класса кнопки на активную
-    element.classList.remove("button_status_disabled");
-    element.classList.add("button_status_initial");
+function changeButton(element) {
+  //  Функция замены класса кнопки на активную
+  element.classList.remove("button_status_disabled");
+  element.classList.add("button_status_initial");
 }
 
-function changeButtonRverse(element) {                        // Функция замены класса кнопки на неактивную
-    element.classList.remove("button_status_initial");
-    element.classList.add("button_status_disabled");
+function changeButtonRverse(element) {
+  // Функция замены класса кнопки на неактивную
+  element.classList.remove("button_status_initial");
+  element.classList.add("button_status_disabled");
 }
 
-
-function successTest(checkbox, radio) {                       // Функция проверки значений true/false чекбокса
-  if (checkbox === radio) {                                   // и радиокнопки. Если значения одинаковы -true,
-    changeButton(resultButton);                               // выбран и чекбокс и радио, то заменяет класс,
-  } else {                                                    // Если в одном из вопросов не поставлен ответ,
-    changeButtonRverse(resultButton);                         // заменяет клаа обратно
+function successTest(checkbox, radio) {
+  // Функция проверки значений true/false чекбокса
+  if (checkbox === radio) {
+    // и радиокнопки. Если значения одинаковы -true,
+    changeButton(resultButton); // выбран и чекбокс и радио, то заменяет класс,
+  } else {
+    // Если в одном из вопросов не поставлен ответ,
+    changeButtonRverse(resultButton); // заменяет клаа обратно
   }
 }
 
@@ -88,47 +91,48 @@ function successTest(checkbox, radio) {                       // Функция 
 // в массиве есть, то переменной присвается значение true. Ну и далее вызывается функция, которая сравнивает обе
 // переменных
 
-checkboxs.forEach((checkbox) => {
-  checkbox.addEventListener("change", function () {
-    let checkboxElem = document.querySelectorAll('.card__test-form-item_type_checkbox:checked');
-    let arr = [].map.call(checkboxElem, function(obj) {
-      return obj.value;
-    })
-    console.log(arr);
-    if(arr.some((element) => element !== 'true') ){
-      checkboxStatus = true;
-    } else {
-      checkboxStatus = false;
-    }
-    console.log(checkboxStatus);
-    successTest(checkboxStatus, radioStatus);
-  }
-)
-});
+// checkboxs.forEach((checkbox) => {
+//   checkbox.addEventListener("change", function () {
+//     const checkboxElem = document.querySelectorAll(
+//       ".card__test-form-item_type_checkbox:checked"
+//     );
+//     if (checkboxElem.length > 0) {
+//       checkboxStatus = true;
+//     } else {
+//       checkboxStatus = false;
+//     }
+//     successTest(checkboxStatus, radioStatus);
+//   });
+// });
 
 // Здесь все аналогично описанному выше, только для radio. Только с одним моментом, что для radio при нажатии
 // значение всегда будет true, будет меняться только значение в массиве, записанное в id
 
-radios.forEach((radio) => {
-  radio.addEventListener("change", function () {
-    let radioElement = document.querySelectorAll('.card__test-form-item_type_circle:checked');
-    let arr =[].map.call(radioElement, function(obj) {
-      return obj.value;
-    })
-    console.log(arr);
-    if(arr.some((element) => element !== 'true') ){
-      radioStatus = true;
-    }
-    console.log(radioStatus);
-   successTest(checkboxStatus, radioStatus);
+// radios.forEach((radio) => {
+//   radio.addEventListener("change", function () {
+//     const radioElement = document.querySelectorAll(
+//       ".card__test-form-item_type_circle:checked"
+//     );
+//     if (radioElement.length > 0) {
+//       radioStatus = true;
+//     }
+//     successTest(checkboxStatus, radioStatus);
+//   });
+// });
+
+function whatchInputStatuses(inputsCollection, cssSelector) {
+  inputsCollection.forEach((el) => {
+    el.addEventListener("change", function () {
+      const checkedInputs = document.querySelectorAll(cssSelector);
+      if (checkedInputs.length > 0) {
+        el.type === "checkbox" ? (checkboxStatus = true) : (radioStatus = true);
+      } else {
+        checkboxStatus = false;
+      }
+      successTest(checkboxStatus, radioStatus);
+    });
   });
-});
-
-
-
-/*
-if(checkboxStatus.some((element) => element === 'true')){
-  resultButton.classList.remove("button_status_initial");
-  resultButton.classList.add("button_status_disabled");
 }
-*/
+
+whatchInputStatuses(radios, ".card__test-form-item_type_circle:checked");
+whatchInputStatuses(checkboxs, ".card__test-form-item_type_checkbox:checked");
