@@ -121,31 +121,46 @@ function successTest(checkbox, radio) {
 //   });
 // });
 
+let count = 0;
+
 function verificationTest(checkItem) {
   form.addEventListener("submit", function (evt) {
     evt.preventDefault();
-    if (checkItem === "radio-second-question") {
-      window.location.href = "test-result-done.html";
-    } else {
+    if (checkItem === "radio-first-question" || checkItem === "radio-third-question") {
       window.location.href = "test-result-failed.html";
+    } else if(checkItem === "radio-second-question" && count < 2){
+      window.location.href = "test-result-failed.html";
+    } else if (checkItem === "radio-second-question" && count >= 2){
+      window.location.href = "test-result-done.html";
     }
   });
 }
+
 
 function watchInputStatuses(inputsCollection, cssSelector) {
   inputsCollection.forEach((el) => {
     el.addEventListener("change", function () {
       const checkedInputs = document.querySelectorAll(cssSelector);
       if (checkedInputs.length > 0) {
-        el.type === "checkbox" ? (checkboxStatus = true) : (radioStatus = true);
+        el.type === "checkbox"
+          ? (checkboxStatus = true, count++)
+          : (radioStatus = true);
       } else {
         checkboxStatus = false;
+        count--;
       }
-      successTest(checkboxStatus, radioStatus);
-      verificationTest(el.id);
+      console.log(count);
+      console.log(checkboxStatus);
+      console.log(radioStatus);
+
+        successTest(checkboxStatus, radioStatus);
+        verificationTest(el.id);
+
     });
   });
 }
+
+
 
 watchInputStatuses(radios, ".card__test-form-item_type_circle:checked");
 watchInputStatuses(checkboxs, ".card__test-form-item_type_checkbox:checked");
