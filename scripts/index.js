@@ -59,6 +59,7 @@ const checkboxs = document.querySelectorAll(
   ".card__test-form-item_type_checkbox"
 ); // Ищем в DOM дереве чекбоксы
 const radios = document.querySelectorAll(".card__test-form-item_type_circle"); //Ищем в DOM дереве радио переключатели
+const form = document.querySelector(".card__test-form");
 let checkboxStatus; // Переменные для хранения значений true/false для чекбоксов
 let radioStatus; // Переменные для хранения значений true/false для радио
 
@@ -120,6 +121,17 @@ function successTest(checkbox, radio) {
 //   });
 // });
 
+function verificationTest(checkItem) {
+  form.addEventListener("submit", function (evt) {
+    evt.preventDefault();
+    if (checkItem === "radio-second-question") {
+      window.location.href = "test-result-done.html";
+    } else {
+      window.location.href = "test-result-failed.html";
+    }
+  });
+}
+
 function watchInputStatuses(inputsCollection, cssSelector) {
   inputsCollection.forEach((el) => {
     el.addEventListener("change", function () {
@@ -130,6 +142,7 @@ function watchInputStatuses(inputsCollection, cssSelector) {
         checkboxStatus = false;
       }
       successTest(checkboxStatus, radioStatus);
+      verificationTest(el.id);
     });
   });
 }
