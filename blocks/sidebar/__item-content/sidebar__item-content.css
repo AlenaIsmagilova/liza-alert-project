@@ -1,0 +1,10 @@
+.sidebar__item-content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+
+.sidebar__item-content:last-of-type {
+  margin-bottom: 33px;
+}

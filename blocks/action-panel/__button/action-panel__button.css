@@ -1,0 +1,13 @@
+.action-panel__button {
+  max-width: 184px;
+  padding: 11px 0;
+  border-radius: 16px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 24px;
+}

@@ -1,0 +1,9 @@
+.sidebar__icon-test {
+  background-image: url("../../../images/test.svg");
+  width: 16px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 14px;
+  margin-top: 3px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,12 @@
+.card__heading-link {
+  color: #212329;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.card__heading-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}

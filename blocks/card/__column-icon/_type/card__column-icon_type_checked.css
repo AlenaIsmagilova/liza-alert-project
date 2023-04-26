@@ -1,0 +1,7 @@
+.card__column-icon_type_checked {
+  background-image: url(../../../../images/content-block-check.svg);
+  width: 14px;
+  height: 10px;
+
+  margin-right: 13px;
+}

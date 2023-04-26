@@ -1,0 +1,4 @@
+.card__test-form {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,9 @@
+.sidebar {
+  grid-area: sidebar-right;
+  width: 100%;
+  height: max-content;
+  max-width: 424px;
+  padding: 32px 33px 0;
+  box-sizing: border-box;
+  grid-row: 3 / span 3;
+}

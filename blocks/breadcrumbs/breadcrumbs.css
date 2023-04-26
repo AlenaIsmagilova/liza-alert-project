@@ -1,0 +1,10 @@
+.breadcrumbs {
+  text-decoration: none;
+  color: #212329;
+  font-weight: 500;
+  padding: 24px 0 32px;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  line-height: calc (24 / 18);
+}

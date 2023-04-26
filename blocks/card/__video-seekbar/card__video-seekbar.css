@@ -1,0 +1,55 @@
+.card__video-seekbar {
+  width: 468px;
+  height: 100%;
+  margin-right: 32px;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  overflow: hidden;
+}
+
+/*FireFox*/
+.card__video-seekbar::-moz-range-track {
+  background-color: #9397a3;
+  border-radius: 16px;
+  height: 6px;
+  border: 0;
+}
+
+.card__video-seekbar::-moz-range-thumb {
+  cursor: pointer;
+  background: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.card__video-seekbar::-moz-range-progress {
+  background-color: #ff6600;
+  border-radius: 16px;
+  border: 0;
+  height: 6px;
+}
+
+/*Chrome*/
+
+.card__video-seekbar::-webkit-slider-runnable-track {
+  background: #9397a3;
+  border-radius: 16px;
+  height: 6px;
+  border: 0;
+  background-position: center;
+}
+
+.card__video-seekbar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: -7px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 0;
+}
